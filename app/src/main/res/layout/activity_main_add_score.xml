@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.marius.projetandroid_v0.MainAddScore">
+
+    <Button
+        android:id="@+id/btn_HomeAddScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/backMenu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/stylbouton" />
+    <EditText
+        android:id="@+id/edtNameGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="game"
+        android:inputType="text"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/btn_HomeAddScore"
+        android:background="@drawable/styletext"
+        />
+    <EditText
+        android:id="@+id/edtScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="score"
+        android:inputType="number"
+        android:layout_below="@id/edtNameGame"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/styletext"
+        />
+
+
+    <Button
+        android:id="@+id/btn_saveScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:layout_below="@id/edtScore"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/stylbouton"/>
+
+</RelativeLayout>

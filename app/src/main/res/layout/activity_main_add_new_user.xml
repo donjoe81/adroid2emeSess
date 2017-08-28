@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.marius.projetandroid_v0.MainActivity">
+
+
+
+    <EditText
+        android:id="@+id/edtNewUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="user name"
+        android:inputType="text"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/styletext"/>
+
+    <EditText
+        android:id="@+id/edtNewUserPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:layout_below="@id/edtNewUserName"
+        android:layout_alignRight="@id/edtNewUserName"
+        android:layout_alignEnd="@id/edtNewUserName"
+        android:layout_alignLeft="@id/edtNewUserName"
+        android:layout_alignStart="@id/edtNewUserName"
+        android:background="@drawable/styletext"/>
+
+    <EditText
+        android:id="@+id/edtNewUserConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="confirm password"
+        android:inputType="textPassword"
+        android:layout_below="@id/edtNewUserPassword"
+        android:layout_alignLeft="@id/edtNewUserPassword"
+        android:layout_alignStart="@id/edtNewUserPassword"
+        android:layout_alignRight="@id/edtNewUserPassword"
+        android:layout_alignEnd="@id/edtNewUserPassword"
+        android:background="@drawable/styletext"/>
+
+    <Button
+        android:id="@+id/btn_saveNewUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtNewUserConfirmPassword"
+        android:text="@string/save"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/stylbouton"
+       />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:background="@drawable/stylbouton"
+        android:layout_below="@+id/btn_saveNewUser"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp" />
+
+</RelativeLayout>

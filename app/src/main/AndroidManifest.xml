@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.marius.projetandroid_v0">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainDisplayScore"
+            android:label="@string/displayScore" />
+        <activity
+            android:name=".MainMenu"
+            android:label="@string/menu" />
+        <activity
+            android:name=".MainAddScore"
+            android:label="@string/addScore" />
+        <activity
+            android:name=".Main2DisplayTop10"
+            android:label="@string/DisplayTop10" />
+        <activity
+            android:name=".MainDisplayGame"
+            android:label="@string/displayGame" />
+        <activity
+            android:name=".MainDisplayUsers"
+            android:label="@string/displayUsers" />
+        <activity android:name=".MainAddNewUser" />
+        <activity android:name=".welcome"></activity>
+    </application>
+
+</manifest>

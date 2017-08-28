@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.marius.projetandroid_v0.Main2DisplayTop10">
+
+    <Button
+        android:id="@+id/btn_Hometop10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/backMenu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/stylbouton"
+        />
+    <EditText
+        android:id="@+id/edtGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nameGame"
+        android:inputType="text"
+        android:layout_below="@id/btn_Hometop10"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/styletext"
+        />
+
+    <Button
+        android:id="@+id/btn_top10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:layout_below="@id/edtGame"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/stylbouton"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tableTop10"
+        android:layout_below="@+id/btn_top10"></TableLayout>
+
+</RelativeLayout>

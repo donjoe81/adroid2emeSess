@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">score</string>
+    <string name="displayScore">display score</string>
+    <string name="menu">dashboard</string>
+    <string name="addScore">add score</string>
+    <string name="DisplayTop10"> display top 10 </string>
+    <string name="displayUsers">display users</string>
+    <string name="displayGame">display game</string>
+    <string name="newUser">new user</string>
+    <string name="save">save</string>
+    <string name="cancel">cancel</string>
+
+    <string name="errLoginEmpty">login is empty!</string>
+    <string name="errPwdEmpty">password is empty!</string>
+    <string name="errPseudoExits">This pseudo exists already!</string>
+    <string name="errOther">A problem occurred while processing your request</string>
+    <string name="errTitle">Error!</string>
+    <string name="nameGame">name of game</string>
+
+    <string name="titleListeGame">game list</string>
+    <string name="gameDisplay10">display top 10</string>
+    <string name="game">game</string>
+    <string name="bestPlayer">best player</string>
+    <string name="backMenu">home</string>
+    <string name="listUser">list of users</string>
+
+    <string name="loginPassIncorrect">login or password incorrect</string>
+    <string name="passwordsNoSame">passwords are not the same</string>
+
+    <string name="titleBar">please wait</string>
+    <string name="textBar">processing...</string>
+
+    <string name="userName">login</string>
+    <string name="password">password</string>
+    <string name="welcome">welcome to score manager</string>
+    <string name="deconnexion">log out</string>
+</resources>

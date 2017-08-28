@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.marius.projetandroid_v0.MainActivity">
+
+    <EditText
+        android:id="@+id/edtLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/userName"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:inputType="text"
+        android:ems="15"
+        android:color ="@color/colorPrimary"
+        android:background="@drawable/styletext"
+        android:padding="3dp"/>
+    <EditText
+        android:id="@+id/edtPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:layout_below="@id/edtLogin"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:inputType="textPassword"
+        android:background="@drawable/styletext"
+        android:padding="3dp"
+        />
+
+    <Button
+        android:id="@+id/btn_connexion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/edtPass"
+        android:text="connexion"
+        android:background="@drawable/stylbouton"/>
+
+    <Button
+        android:id="@+id/btn_newUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/newUser"
+        android:layout_below="@+id/btn_connexion"
+        android:layout_marginTop="15dp"
+        android:layout_alignRight="@+id/btn_connexion"
+        android:layout_alignEnd="@+id/btn_connexion"
+        android:layout_alignLeft="@+id/btn_connexion"
+        android:layout_alignStart="@+id/btn_connexion"
+        android:background="@drawable/stylbouton"/>
+
+
+
+</RelativeLayout>

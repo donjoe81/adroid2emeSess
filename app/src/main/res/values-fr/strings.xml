@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">score</string>
+    <string name="DisplayTop10">afficher le top 10 d\'un jeu</string>
+    <string name="titleListeGame">liste de jeu</string>
+    <string name="titleBar">veillez patienter</string>
+    <string name="textBar">traitement en cour...</string>
+    <string name="save">sauver</string>
+    <string name="passwordsNoSame">mots de passe incorcect</string>
+    <string name="newUser">nouvel utilisateur</string>
+    <string name="nameGame">nom du jeu</string>
+    <string name="menu">tableau de bord</string>
+    <string name="loginPassIncorrect">nom ou mot de passe incorrect</string>
+    <string name="listUser">pseudo des utilisateurs</string>
+    <string name="gameDisplay10">afficher le top 10</string>
+    <string name="game">jeu</string>
+    <string name="errTitle">Erreur!</string>
+    <string name="errPwdEmpty">mot de passe vide</string>
+    <string name="errPseudoExits">"pseudo existe deja "</string>
+    <string name="errOther">un probleme est survenu...</string>
+    <string name="errLoginEmpty">pseudo est vide</string>
+    <string name="displayUsers">afficher les utilisateurs</string>
+    <string name="displayScore">afficher les scores</string>
+    <string name="displayGame">afficher les jeux</string>
+    <string name="cancel">annuler</string>
+    <string name="addScore">ajuter un score</string>
+    <string name="backMenu">accueil</string>
+    <string name="bestPlayer">meilleur joueur</string>
+    <string name="welcome">bienvenu à score manager</string>
+    <string name="deconnexion">deconnexion</string>
+</resources>

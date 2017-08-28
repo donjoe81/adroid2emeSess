@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.marius.projetandroid_v0.MainMenu">
+
+    <Button
+        android:id="@+id/btnAddScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addScore"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="-6dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/stylbouton"/>
+
+    <Button
+        android:id="@+id/btnDisplayTop10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnAddScore"
+        android:background="@drawable/stylbouton"
+        android:text="@string/DisplayTop10"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btnDisplayGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnDisplayTop10"
+        android:background="@drawable/stylbouton"
+        android:text="@string/displayGame"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"/>
+
+
+    <Button
+        android:id="@+id/btnDisplayUsers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/stylbouton"
+        android:layout_below="@+id/btnDisplayGame"
+        android:text="@string/displayUsers"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btn_deconnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/deconnexion"
+        android:layout_below="@id/btnDisplayUsers"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#ffffff"
+
+        android:textColor="#ff0000"
+        />
+    <TextView
+        android:id="@+id/pseudo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_deconnection"
+        android:visibility="invisible" />
+
+</RelativeLayout>
